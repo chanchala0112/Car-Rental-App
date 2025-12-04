@@ -6,14 +6,18 @@ const Hero = () => {
     <section className='bg-primary'>
 
         {/* CCONTAINER */}
-        <div className='max-padd-containur relative flex justify-end mx-auto flex-col gap-9 py-6 py-32 z-10'>
+        <div className='max-padd-container relative flex justify-end mx-auto flex-col gap-9 py-6 py-32 z-10'>
             {/* CONTACT */}
             <div className='flexCenter flex-col gap-y-6'>
                 <div className='text-center flex-col gap-y-6'>
-                    <h1 className='capitalize leading tight'><span className='bg-gradient-to-r from-solid to to-white pl-1 rounded-md'>Premium vehicles.</span>  Exciting destinations. Endless journeys - book your perfect ride today</h1>
+                            <h1 className='capitalize leading tight'>Explore{" "}<span className='bg-gradient-to-r from-solid to to-white pl-1 rounded-md'>
+                                {" "}
+                                Premium vehicles.{" "}</span> 
+                                {" "}  Exciting destinations. Endless journeys - book your perfect ride today
+                        </h1>
                 </div>
                 {/* Search booking form */}
-                <form className='bg-white text-gray-500 rounded-md md:rounded-full px-6 md:pl-12 py-4  flex flex-col md:flex-row gap-4 lg:gap-x-8 max-w-md md:max-w-4xl ring-1 ring-slate-900/9  relative'>
+                <form className='bg-white text-gray-500 rounded-md md:rounded-full px-6 md:pl-12 py-4  flex flex-col md:flex-row gap-4 lg:gap-x-8 max-w-md md:max-w-4xl ring-1 ring-slate-900/5  relative'>
 
                     <div className='flex flex-col w-full'>
                         <div className='flex items-center gap-2'>
@@ -64,7 +68,7 @@ const Hero = () => {
                 </form>
             </div>
             <div className="flexCenter">
-                <img src={assets.bg} alt="bgImg" className='w-full max-w-[77%]' />
+                <img src={assets.bg} alt="bgImg" className='w-full md:w-[77%]' />
             </div>
         </div>
 
