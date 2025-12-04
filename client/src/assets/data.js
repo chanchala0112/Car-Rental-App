@@ -105,10 +105,31 @@ export const assets = {
 }
 
 export const cities = [
-    "Abu Dhabi",
-    "New York",
-    "Toronto",
-    "Berlin",
+    "Colombo",
+    "Kandy",
+    "Galle",
+    "Jaffna",
+    "Negombo",
+    "Batticaloa",
+    "Trincomalee",
+    "Anuradhapura",
+    "Polonnaruwa",
+    "Matara",
+    "Ratnapura",
+    "Kurunegala",
+    "Nuwara Eliya",
+    "Badulla",
+    "Monaragala",
+    "Hambantota",
+    "Kalutara",
+    "Puttalam",
+    "Mannar",
+    "Vavuniya",
+    "Mullaitivu",
+    "Kilinochchi",
+    "Ampara",
+    "Matale",
+    "Gampaha"
 ];
 
 

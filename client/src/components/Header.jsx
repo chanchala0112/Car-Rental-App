@@ -1,15 +1,33 @@
-import React, {useEffect, useState} from 'react'
+import React, {use, useEffect, useState} from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import {assets} from "../assets/data"
 import Navbar from './Navbar'
 
 const Header = () => {
-    const [menuOpened, setmenuOpened] = useState(true);
+    const [menuOpened, setMenuOpened] = useState(false);
     const [active, setActive] = useState(false);
     const [showSearch, setShowSearch] = useState(false);    
     const location = useLocation();
 
     const isHomePage = location.pathname.endsWith('/');
+
+    const toggleMenu = () => setMenuOpened(prev=> !prev);
+
+    useEffect(()=>{
+        const handleScroll = () => {
+            setActive(window.scrollY > 100)
+            if(window.scrollY > 10){
+                setMenuOpened(false)
+            }
+        }
+        window.addEventListener("scroll", handleScroll);
+        // Run once to set initial active state
+        handleScroll();
+
+        return()=>
+            window.removeEventListener("scroll", handleScroll);
+    }, [location.pathname])
+
   return (
     <header className={`${active ? "bg-white shadow-sm py-2" : "py-3"} ${!isHomePage && "bg-white"} fixed top-0 w-full left-0 right-0 z-50 transition-all duration-200`}>
         <div className='max-padd-container'>
@@ -23,7 +41,7 @@ const Header = () => {
                 </Link>
             </div>
         {/* Navbar */}
-        <Navbar containerStyles={menuOpened ? "flex items-start flex-col gap-y-8 fixed top-16 right-6 p-5 bg-white shadow-md w-52 ring-slate-900/5 rounded-xl z-50" : "hidden lg:flex gap-x-5 xl:gap-x-1 text-sm font-semibold p-1"}/>
+        <Navbar setMenuOpened={setMenuOpened} containerStyles={menuOpened ? "flex items-start flex-col gap-y-8 fixed top-16 right-6 p-5 bg-white shadow-md w-52 ring-slate-900/5 rounded-xl z-50" : "hidden lg:flex gap-x-5 xl:gap-x-1 text-sm font-semibold p-1"}/>
         { /* Buttons & Searchbar & profile */}
 
         {/* setShowSearch is used to toggle the search bar visibility and onclick means can click search button*/}
@@ -49,15 +67,25 @@ const Header = () => {
                 </div>
 
                 {/* Menu Toggle */}
-                {menuOpened ? (
-                    <img
-                    src={assets.close}
-                    alt="" className={`lg:hidden cursor-pointer text-x1`} /> 
-                ):(
-                    <img
-                    src={assets.menu}
-                    alt="" className={`lg:hidden cursor-pointer text-x1`} />
-                )}
+                <>
+                    {menuOpened ? (
+                        <img onClick={toggleMenu}
+                        src={assets.close}
+                        alt="" className={`lg:hidden cursor-pointer text-x1`} /> 
+                    ):(
+                        <img onClick={toggleMenu}
+                        src={assets.menu}
+                        alt="" className={`lg:hidden cursor-pointer text-x1`} />
+                    )}
+                </>
+                {/* User Profile */}
+                <div>
+                    <div>
+                        <button className='btn-solid bg-black flexCenter gap-2 rounded-full'> Login
+                            <img src={assets.user} alt="userIcon" className='invert' />
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

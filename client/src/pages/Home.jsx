@@ -1,12 +1,17 @@
 import React from 'react'
+import Hero from '../components/Hero.jsx'
+import About from '../components/About.jsx'
+import FeaturedCars from '../components/FeaturedCars.jsx'
+import Testimonial from '../components/Testimonial.jsx'
 
 const Home = () => {
   return (
-    <div className='h-screen'>
-      <div className='mt-64'>
-        Home Page
-      </div>
-    </div>
+    <>
+    <Hero />
+    <About />
+    <FeaturedCars />
+    <Testimonial />
+    </>
   )
 }
 
