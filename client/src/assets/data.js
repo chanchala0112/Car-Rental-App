@@ -169,7 +169,7 @@ export const dummyCars = [
         "description": "Two-door sport coupe with sharp handling, responsive turbocharged engine, and a driver focused cockpit. Suited for spirited drives and short trips with premium materials and modern connectivity.",
         "address": "789 Park Lane, New York, USA",
         "city": "Colombo",
-        "country": "USA",
+        "country": "Sri Lanka",
         "bodyType": "Coupe",
         "price":{
           "rent": 299,
@@ -196,7 +196,7 @@ export const dummyCars = [
         "description": "Mid-size SUV with robust chassis, elevated ride height, and all-wheel capability. Practical interior, large cargo area, and modern driver aids for family trips and mixed road conditions.",
         "address": "301 Sunset Boulevard, Los Angeles, USA",
         "city": "Matale",
-        "country": "USA",
+        "country": "Sri Lanka",
         "bodyType": "SUV",
         "price":{
          "rent": 599,
@@ -223,7 +223,7 @@ export const dummyCars = [
         "description": "Compact hatchback built for efficient city driving, easy parking, and low running costs. Agile steering and good fuel economy with practical cargo flexibility.",
         "address": "900 Bay Street, Toronto, Canada",
         "city": "Ratnapura",
-        "country": "Canada",
+        "country": "Sri Lanka",
         "bodyType": "Hatchback",
         "price":{
           "rent": 299,
@@ -250,7 +250,7 @@ export const dummyCars = [
         "description": "Four-door executive sedan focused on comfort and refinement. Smooth ride, spacious rear seating, advanced safety features, and premium cabin materials for long-distance comfort.",
         "address": "29 Alexanderplatz, Berlin, Germany",
         "city": "Matara",
-        "country": "Germany",
+        "country": "Sri Lanka",
         "bodyType": "Sedan",
          "price":{
            "rent": 399,
@@ -277,7 +277,7 @@ export const dummyCars = [
     "description": "All-electric performance sedan offering instant torque, precise handling, and luxurious cabin comfort. Ideal for buyers seeking EV performance without sacrificing refinement.",
     "address": "1 Palm Jumeirah, Abu Dhabi, UAE",
     "city": "Kandy",
-    "country": "UAE",
+    "country": "Sri Lanka",
     "bodyType": "Sedan",
     "price":{
       "rent": 499,
@@ -304,7 +304,7 @@ export const dummyCars = [
     "description": "Convertible with a refined chassis and retractable top for open-air driving. Comfortable seating for four, responsive handling, and modern infotainment for weekend drives.",
     "address": "1 Palm Jumeirah, Abu Dhabi, UAE",
     "city": "Galle",
-    "country": "USA",
+    "country": "Sri Lanka",
     "bodyType": "Convertible",
      "price":{
       "rent": 499,
@@ -332,7 +332,7 @@ export const dummyCars = [
     "description": "Utility cargo van designed for trades and deliveries. Large load area, durable interior surfaces, practical access points, and reliable mechanicals for daily work.",
     "address": "88 Willow Lane, Edinburgh, UK",
     "city": "Matale",
-    "country": "UK",
+    "country": "Sri Lanka",
     "bodyType": "Van",
     "price":{
       "rent": 199,
@@ -361,7 +361,7 @@ export const dummyCars = [
     "description": "High-revving V10 supercar with razor-sharp handling, lightweight chassis, and premium sporty interior. Built for high-performance driving and track-capable bursts on demand.",
     "address": "10 King's Road, London, UK",
     "city": "Mannar",
-    "country": "UK",
+    "country": "Sri Lanka",
     "bodyType": "Coupe",
     "price":{
       "rent": 1200,
@@ -388,7 +388,7 @@ export const dummyCars = [
     "description": "Mid-engine V8 supercar delivering blistering acceleration and sublime handling. Driver-focused cockpit with premium materials and race-bred technology for an exhilarating experience.",
     "address": "10 Avenue Princesse Grace, Monaco",
     "city": "Nuwara Eliya",
-    "country": "Monaco",
+    "country": "Sri Lanka",
     "bodyType": "Coupe",
     "price":{
       "rent": 1400,
@@ -415,8 +415,8 @@ export const dummyCars = [
     "title": "McLaren 720S",
     "description": "Lightweight carbon-fiber supercar with a twin-turbo V8, blistering acceleration, and razor-sharp handling. Designed for both road and occasional track use with driver-focused ergonomics.",
     "address": "22 Via dei Condotti, Rome, Italy",
-    "city": "Rome",
-    "country": "Anuradhapura",
+    "city": "Anuradhapura",
+    "country":"Sri Lanka",
     "bodyType": "Coupe",
     "price":{
       "rent": 1300,
@@ -443,7 +443,7 @@ export const dummyCars = [
     "description": "Grand tourer combining refined luxury with potent V8/V12 performance. Smooth long-distance cruising, handcrafted interior, and advanced stability for comfortable high-speed touring.",
     "address": "5 Piccadilly, London, UK",
     "city": "Kurunegala",
-    "country": "UK",
+    "country": "Sri Lanka",
     "bodyType": "Grand Tourer",
     "price":{
       "rent": 650,

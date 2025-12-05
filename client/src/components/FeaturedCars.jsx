@@ -14,10 +14,10 @@ import { Autoplay } from 'swiper/modules';
 
 const FeaturedCars = () => {
 
-  const [featured, setFeatured] = useState([])
+  const [featured, setFeatured] = useState([]);
 
   useEffect(()=>{
-    const data = dummyCars.filter((car) => cities.includes(car.city))
+    const data = dummyCars.filter((car) => cities.includes(car.city));
     setFeatured(data);
   }, [dummyCars]);
   return (
