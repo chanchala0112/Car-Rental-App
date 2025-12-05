@@ -153,7 +153,7 @@ export const dummyAgentData = {
     "email": "contact@auroramotors.com", 
     "address": "Suite 405, Midtown Business Tower, Park Avenue",
     "owner": dummyAgentData,
-    "city": "Toronto",
+    "city": "Gampaha",
     "createdAt": "2025-04-12T10:45:30.000Z",
     "updatedAt": "2025-04-12T10:45:30.000Z",
     "__v": 0
@@ -168,7 +168,7 @@ export const dummyCars = [
         "title": "Porsche 911 Carrera",
         "description": "Two-door sport coupe with sharp handling, responsive turbocharged engine, and a driver focused cockpit. Suited for spirited drives and short trips with premium materials and modern connectivity.",
         "address": "789 Park Lane, New York, USA",
-        "city": "New York",
+        "city": "Colombo",
         "country": "USA",
         "bodyType": "Coupe",
         "price":{
@@ -195,7 +195,7 @@ export const dummyCars = [
         "title": "Lamborghini Urus",
         "description": "Mid-size SUV with robust chassis, elevated ride height, and all-wheel capability. Practical interior, large cargo area, and modern driver aids for family trips and mixed road conditions.",
         "address": "301 Sunset Boulevard, Los Angeles, USA",
-        "city": "Los Angeles",
+        "city": "Matale",
         "country": "USA",
         "bodyType": "SUV",
         "price":{
@@ -222,7 +222,7 @@ export const dummyCars = [
         "title": "Audi RS3 Sportback",
         "description": "Compact hatchback built for efficient city driving, easy parking, and low running costs. Agile steering and good fuel economy with practical cargo flexibility.",
         "address": "900 Bay Street, Toronto, Canada",
-        "city": "Toronto",
+        "city": "Ratnapura",
         "country": "Canada",
         "bodyType": "Hatchback",
         "price":{
@@ -249,7 +249,7 @@ export const dummyCars = [
         "title": "Mercedes-Benz S 500",
         "description": "Four-door executive sedan focused on comfort and refinement. Smooth ride, spacious rear seating, advanced safety features, and premium cabin materials for long-distance comfort.",
         "address": "29 Alexanderplatz, Berlin, Germany",
-        "city": "Berlin",
+        "city": "Matara",
         "country": "Germany",
         "bodyType": "Sedan",
          "price":{
@@ -276,7 +276,7 @@ export const dummyCars = [
     "title": "Porsche Taycan Turbo S",
     "description": "All-electric performance sedan offering instant torque, precise handling, and luxurious cabin comfort. Ideal for buyers seeking EV performance without sacrificing refinement.",
     "address": "1 Palm Jumeirah, Abu Dhabi, UAE",
-    "city": "Abu Dhabi",
+    "city": "Kandy",
     "country": "UAE",
     "bodyType": "Sedan",
     "price":{
@@ -303,7 +303,7 @@ export const dummyCars = [
     "title": "Porsche 718 Boxster",
     "description": "Convertible with a refined chassis and retractable top for open-air driving. Comfortable seating for four, responsive handling, and modern infotainment for weekend drives.",
     "address": "1 Palm Jumeirah, Abu Dhabi, UAE",
-    "city": "Abu Dhabi",
+    "city": "Galle",
     "country": "USA",
     "bodyType": "Convertible",
      "price":{
@@ -331,7 +331,7 @@ export const dummyCars = [
     "title": "Mercedes-Benz Sprinter 3500",
     "description": "Utility cargo van designed for trades and deliveries. Large load area, durable interior surfaces, practical access points, and reliable mechanicals for daily work.",
     "address": "88 Willow Lane, Edinburgh, UK",
-    "city": "Edinburgh",
+    "city": "Matale",
     "country": "UK",
     "bodyType": "Van",
     "price":{
@@ -360,7 +360,7 @@ export const dummyCars = [
     "title": "Lamborghini Huracán EVO",
     "description": "High-revving V10 supercar with razor-sharp handling, lightweight chassis, and premium sporty interior. Built for high-performance driving and track-capable bursts on demand.",
     "address": "10 King's Road, London, UK",
-    "city": "London",
+    "city": "Mannar",
     "country": "UK",
     "bodyType": "Coupe",
     "price":{
@@ -387,7 +387,7 @@ export const dummyCars = [
     "title": "Ferrari F8 Tributo",
     "description": "Mid-engine V8 supercar delivering blistering acceleration and sublime handling. Driver-focused cockpit with premium materials and race-bred technology for an exhilarating experience.",
     "address": "10 Avenue Princesse Grace, Monaco",
-    "city": "Monaco",
+    "city": "Nuwara Eliya",
     "country": "Monaco",
     "bodyType": "Coupe",
     "price":{
@@ -416,7 +416,7 @@ export const dummyCars = [
     "description": "Lightweight carbon-fiber supercar with a twin-turbo V8, blistering acceleration, and razor-sharp handling. Designed for both road and occasional track use with driver-focused ergonomics.",
     "address": "22 Via dei Condotti, Rome, Italy",
     "city": "Rome",
-    "country": "Italy",
+    "country": "Anuradhapura",
     "bodyType": "Coupe",
     "price":{
       "rent": 1300,
@@ -442,7 +442,7 @@ export const dummyCars = [
     "title": "Aston Martin DB11",
     "description": "Grand tourer combining refined luxury with potent V8/V12 performance. Smooth long-distance cruising, handcrafted interior, and advanced stability for comfortable high-speed touring.",
     "address": "5 Piccadilly, London, UK",
-    "city": "London",
+    "city": "Kurunegala",
     "country": "UK",
     "bodyType": "Grand Tourer",
     "price":{
