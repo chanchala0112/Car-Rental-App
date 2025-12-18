@@ -3,6 +3,7 @@ import Hero from '../components/Hero.jsx'
 import About from '../components/About.jsx'
 import FeaturedCars from '../components/FeaturedCars.jsx'
 import Testimonial from '../components/Testimonial.jsx'
+import Banner from '../components/Banner.jsx'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
     <Hero />
     <About />
     <FeaturedCars />
+    <Banner />
     <Testimonial />
     </>
   )
