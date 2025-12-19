@@ -21,7 +21,7 @@ const FeaturedCars = () => {
     setFeatured(data);
   }, [dummyCars]);
   return (
-    <section className='ma-padd-container py-16 xl:py-28'>
+    <section className='max-padd-container py-16 xl:py-28'>
        < Title 
           title1={"Your Next Car Awaits"}
           title2={"Start Driving With Ease"}
