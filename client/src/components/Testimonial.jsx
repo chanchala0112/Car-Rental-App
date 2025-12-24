@@ -64,7 +64,7 @@ const Testimonial = () => {
           <p>We rented a vehicle for a family trip, and it was perfect. Spacious, clean, and fuel-efficient. The staff explained everything clearly. Great experience overall.</p>
           <div className='flex items-center gap-2'>
             <img src={assets.user3} alt="userImg" className='h-8 w-8 rounded-full'/>
-            <p className='text-gray-800 font-medium'> Kumarasingha Jayalath </p>
+            <p className='text-gray-800 font-medium'> Mayuri Anushika </p>
           </div>
         </div>
       </div>

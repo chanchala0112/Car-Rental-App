@@ -37,7 +37,7 @@ const Header = () => {
             <div className='flex flex-1'>
                 <Link to={"/"} >
                 <img src={assets.logoImg} alt="logoImg" width={88} className="h-7" />
-                <span className='text-textColor uppercase text-xs font-extrabold tracking-[6px] relative bottom-1'> Shachith Rent House</span>
+                <span className='text-textColor uppercase text-xs font-extrabold tracking-[6px] relative bottom-1'> Rentroo</span>
                 </Link>
             </div>
         {/* Navbar */}
