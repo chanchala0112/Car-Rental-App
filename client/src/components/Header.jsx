@@ -8,6 +8,7 @@ const Header = () => {
     const [active, setActive] = useState(false);
     const [showSearch, setShowSearch] = useState(false);    
     const location = useLocation();
+    const {user} = useUser()
 
     const isHomePage = location.pathname.endsWith('/');
 
