@@ -1,14 +1,17 @@
-import React, {use, useEffect, useState} from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import {assets} from "../assets/data"
 import Navbar from './Navbar'
+import { useUser, useClerk, UserButton } from "@clerk/clerk-react";
 
 const Header = () => {
     const [menuOpened, setMenuOpened] = useState(false);
     const [active, setActive] = useState(false);
     const [showSearch, setShowSearch] = useState(false);    
     const location = useLocation();
-    const {user} = useUser()
+    const {user} = useUser();
+    const { openSignIn } = useClerk();
+    const navigate = useNavigate();
 
     const isHomePage = location.pathname.endsWith('/');
 
