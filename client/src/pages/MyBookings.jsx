@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { assets, dummyBookingsData } from '../assets/data'
-import { useUser, SignedIn, SignedOut } from "@clerk/clerk-react";
+import { useUser, SignedIn, SignedOut, SignInButton } from "@clerk/clerk-react";
 
 const MyBookings = () => {
   const [bookings, setBookings] = useState([])
@@ -57,7 +57,9 @@ const MyBookings = () => {
           <img src={assets.user} alt="Login required" className="w-16 h-16 opacity-50 mb-2" />
           <h3 className="h3">Please Log In</h3>
           <p className="text-gray-500 mb-4">You need to log in to view your bookings.</p>
-          <button className="btn-dark rounded-full">Sign In</button>
+          <SignInButton mode="modal">
+            <button className="btn-dark rounded-full">Sign In</button>
+          </SignInButton>
         </div>
       </SignedOut>
 
